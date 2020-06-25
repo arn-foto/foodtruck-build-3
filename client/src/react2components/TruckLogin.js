@@ -5,7 +5,7 @@ import { axiosWithAuth } from "../util/axiosWithAuth";
 const Login = (props) => {
   const { register, handleSubmit, errors } = useForm();
 
-  // make a post request to retrieve a token from the api
+  // made a post request to retrieve a token from the api
 
   // post request created to retrieve token from API
   const onSubmit = (data) => {
@@ -27,6 +27,7 @@ const Login = (props) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="Truck-login">
       <h1>Food Truck Trkr</h1>
+      <p>Log In</p>
 
       <label htmlFor="username">
         <select>
