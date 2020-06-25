@@ -27,7 +27,7 @@ const Login = (props) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="Truck-login">
       <h1>Food Truck Trkr</h1>
-      <p>Log In</p>
+      <p>Profile Log In</p>
 
       <label htmlFor="username">
         <select>
