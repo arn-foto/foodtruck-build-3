@@ -5,8 +5,6 @@ import FoodtrkrPage from "./react2components/FoodtrkrPage";
 import TruckLogin from "./react2components/TruckLogin";
 import Nav from "./react2components/Nav";
 
-// import "./styles.scss";
-
 // created routes + privateRoutes
 export default function App() {
   return (

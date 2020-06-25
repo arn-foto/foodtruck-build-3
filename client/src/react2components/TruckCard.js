@@ -50,10 +50,15 @@ const TruckCard = () => {
     <div className="edit-profile">
       <h2>Welcome back, Bobs Burgers!</h2>
 
+      <h2>Edit your food</h2>
+      <div className="edit-menu">
+        <UserTable users={users} editRow={editRow} deleteUser={deleteUser} />
+      </div>
+
       <div className="form-edit">
         {editing ? (
           <Fragment>
-            <h2>Edit user</h2>
+            <h2>Item Edit</h2>
             <EditUserForm
               editing={editing}
               setEditing={setEditing}
@@ -67,10 +72,6 @@ const TruckCard = () => {
             <AddUserForm addUser={addUser} />
           </Fragment>
         )}
-      </div>
-      <h2>Edit your food</h2>
-      <div className="edit-menu">
-        <UserTable users={users} editRow={editRow} deleteUser={deleteUser} />
       </div>
     </div>
   );
