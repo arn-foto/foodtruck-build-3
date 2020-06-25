@@ -1126,7 +1126,7 @@ caption {
 }
 
 .App {
-  background-image: url("https://images.unsplash.com/photo-1484184086951-001dc63028c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1484184086951-001dc63028c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1183,4 +1183,11 @@ button {
 form {
   background-color: whitesmoke;
   opacity: 80%;
+}
+
+ul {
+  font-family: Impact, Charcoal, sans-serif;
+  color: rgb(108, 30, 182);
+  text-decoration: none;
+  font-size: 2em;
 }
